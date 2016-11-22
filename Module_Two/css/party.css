@@ -27,7 +27,6 @@ h1{ font-size:24px;color:#FFF;}
 .attention{color:#F00;}
 
 #imageFace{
-	background:url("../images/faces/Face_3.jpg") no-repeat bottom;
 	background-size:100%;
 	z-index:-1;
 }
@@ -44,8 +43,14 @@ h1{ font-size:24px;color:#FFF;}
 .center{text-align:center;}
 
 .drop{
-	border:2px dotted;
+	border:2px dotted #ccc;
+	color: #ccc;
 	margin-top: 20px;
+}
+
+.drop.dragover{
+	border-color: #000;
+	color: #000;
 }
 
 /*MENU*/
