@@ -70,14 +70,17 @@ h1{ font-size:24px;color:#FFF;}
 #menu_1{
 	background:url("../images/ico_glasses.png") no-repeat;
 	background-size:100%;
+	cursor: pointer;
 }
 #menu_2{
 	background:url("../images/ico_beards.png") no-repeat;
 	background-size:100%;
+	cursor: pointer;
 }
 #menu_3{
 	background:url("../images/ico_hats.png") no-repeat;
 	background-size:100%;
+	cursor: pointer;
 }
 /*GLASSES*/
 .glasses{
@@ -131,16 +134,20 @@ h1{ font-size:24px;color:#FFF;}
 #hats_1{
 	background:url("../images/accessories/HAT_1.png") no-repeat;
 	background-size:100%;
+	cursor: -webkit-grab;
 }
 #hats_2{
 	background:url("../images/accessories/HAT_2.png") no-repeat;
 	background-size:100%;
+	cursor: -webkit-grab;
 }
 #hats_3{
 	background:url("../images/accessories/HAT_3.png") no-repeat;
 	background-size:100%;
+	cursor: -webkit-grab;
 }
 #hats_4{
 	background:url("../images/accessories/HAT_4.png") no-repeat;
 	background-size:100%;
+	cursor: -webkit-grab;
 }
