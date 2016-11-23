@@ -63,3 +63,14 @@
 			z = z - 10;
 			size.style.width = z + "%";
 		}
+
+		var c = 0;
+
+		function myPositionLeft(){
+			c = c - 10;
+			size.style.marginLeft = c + "px";
+		}
+		function myPositionRight(){
+			c = c + 10;
+			size.style.marginLeft = c + "px";
+		}
