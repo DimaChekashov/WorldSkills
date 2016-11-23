@@ -7,12 +7,16 @@
 					x;
 
 				for(x = 0; x < data.length; x = x + 1){
-					anchor = document.createElement('img');
-					anchor.setAttribute("src", data[x].file);
-					anchor.setAttribute("width", "100%");
-					anchor.setAttribute("id", "size");
+					if(data[x].size < 300000 && data[x].type === "jpg"){
+						anchor = document.createElement('img');
+						anchor.setAttribute("src", data[x].file);
+						anchor.setAttribute("width", "100%");
+						anchor.setAttribute("id", "size");
 
-					imageFace.appendChild(anchor);
+						imageFace.appendChild(anchor);
+					}else {
+						alert("Ошибка размер файла не должен превышать 300kb и быть других фарматов кроме jpg!");
+					}
 				}
 				var size = document.getElementById('size');
 			}
