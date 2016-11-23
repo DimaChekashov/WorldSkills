@@ -10,9 +10,11 @@
 					anchor = document.createElement('img');
 					anchor.setAttribute("src", data[x].file);
 					anchor.setAttribute("width", "100%");
+					anchor.setAttribute("id", "size");
 
 					imageFace.appendChild(anchor);
-				}	
+				}
+				var size = document.getElementById('size');
 			}
 
 			var upload = function(files){
@@ -22,7 +24,7 @@
 
 				for(x = 0; x < files.length; x = x + 1){
 					formData.append('file[]', files[x]);
-				}	
+				}
 
 				xhr.onload = function(){
 					var data = JSON.parse(this.responseText);
@@ -38,7 +40,7 @@
 			drop.ondrop = function(e){
 				e.preventDefault();
 				this.className = 'drop';
-				upload(e.dataTransfer.files);  
+				upload(e.dataTransfer.files);
 			}
 
 			drop.ondragover = function(){
@@ -50,3 +52,14 @@
 				return false;
 			}
 		}());
+
+		var z = 100;
+
+		function mySizePlus(){
+			z = z + 10;
+			size.style.width = z + "%";
+		}
+		function mySizeMinus(){
+			z = z - 10;
+			size.style.width = z + "%";
+		}

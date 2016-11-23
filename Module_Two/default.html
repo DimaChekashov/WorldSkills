@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="css/demo.css" />
 <link rel="stylesheet" href="css/party.css" />
 <script src="jquery-3.1.1.min.js"></script>
-<script src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>  
+<script src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
 <script src="draggable.js"></script>
 </head>
 <body>
@@ -50,19 +50,19 @@
 
   <div class="grid_4 prefix_4 suffix_4">
     <p class="drop" id="drop">
-      Drop your face file here <br/> 
+      Drop your face file here <br/>
       <span class="attention">Only JPG file. Maximum 300 Kb.</span>
     </p>
   </div>
   <div class="clear"></div>
-  
+
 
   <div class="grid_2 prefix_3 suffix_2 center">Size</div>
   <div class="grid_2 suffix_3 center">Rotate</div>
   <div class="clear"></div>
 
-  <div class="grid_1 prefix_3"><button id="plus" class="button">+</button></div>
-  <div class="grid_1 suffix_2"><button id="minus" class="button">-</button></div>
+  <div class="grid_1 prefix_3"><button id="plus" class="button" onClick="mySizePlus()">+</button></div>
+  <div class="grid_1 suffix_2"><button id="minus" class="button" onClick="mySizeMinus()">-</button></div>
   <div class="grid_1"><button id="left" class="button">Left</button></div>
   <div class="grid_1 suffix_3"><button id="right" class="button">Right</button></div>
   <div class="clear"></div>
@@ -73,7 +73,7 @@
         </div>
   </div>
   <div class="clear"></div>
-  
+
   <div class="grid_4 prefix_4 suffix_4 center">
     <p><button id="save" class="button" onClick="javascript:savePicture();">Save Picture</button></p>
   </div>
