@@ -3,16 +3,146 @@
     <head>
         <meta charset="utf-8">
         <title>Hotel V</title>
-        <link rel="stylesheet" href="css/style.css">
+        <script src="./GallerySample/js/photo-gallery.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/style_1450.css">
     </head>
     <body>
+        <div class="room">
+            <div class="roomMenu">
+                <p>Book a room</p>
+            </div>
+            <div class="dropdown-content">
+                <h2 class="text">Arrival:<input type="text" name="arrival"></h2>
+                <h2 class="text">Departure:<input type="text" name="departure"></h2>
+                <div class="imgChek">
+                    <h2><img src="Images/chek.png" alt="chek"><span>Night</span></h2>
+                </div>
+                    <h2 class="lastImg"><img src="Images/chek.png" alt="chek"><span>Adults</span></h2>
+                <div class="imgChek">    
+                    <h2><img src="Images/chek.png" alt="chek"><span>Children</span></h2>
+                </div>
+                <input type="button" class="btn" name="btn" value="Check availability">
+            </div>
+        </div>
         <div class="back-ground">
             <div class="container">
-
+                <div class="firstMenu">
+                    <h1><a href="#">Hotel V</a></h1>
+                    <ul>
+                        <li><a href="#">Find a hotel</a></li>
+                        <li><a href="#">Meeting & Events</a></li>
+                        <li><a href="#">About Hotel</a></li>
+                    </ul>
+                </div>
+                <div class="secondMenu">
+                    <h2>Hotel detail</h2>
+                    <ul>
+                        <li><a href="#">Amenities</a></li>
+                        <li><a href="#">Maps</a></li>
+                        <li><a href="#">Room Type</a></li>
+                    </ul>
+                    <div class="check">
+                        <h3>Check in</h3>
+                        <ul>
+                            <li>Check in: 3pm</li>
+                            <li>Check out: 12pm</li>
+                        </ul>
+                    </div>
+                    <h3>Map and Location</h3>
+                    <img class="map" src="Images/map.png" alt="map">
+                </div>
+                <div class="main">
+                    <h2>Meeting and Events</h2>
+                    <p>We provide venues for different types of events:</p>
+                    <div class="imgGath">
+                        <img class="event" src="Images/5016.png" alt="Gathering">
+                        <h2>Gathering</h2>
+                    </div>   
+                    <div class="imgGath"> 
+                        <img class="event" src="Images/5015.png" alt="Meeting">
+                        <h2>Meeting</h2>
+                    </div>
+                    <div class="imgGath">    
+                        <img class="event" src="Images/5040.png" alt="Workshops">
+                        <h2>Workshops</h2>
+                    </div>    
+                    <p>
+                    See how our customer said on the project. This is a sample project. This is really just a sample project. A sample project. This is a<br/>sample project. This is really just a sample project. A sample project. This is a sample project. This is really just a sample project. A<br/>sample project. This is a sample project. This is really just a sample project. A sample project. This is a sample project. This is<br/>really just a sample project. A sample project. This is a sample project. This is really just a sample project. A sample project.
+                    </p>
+                    <p>
+                     This is a sample project. This is really just a sample project. A sample project. This is a sample project. This is really just a sample<br/> project. A sample project. This is a sample project. This is really just a sample project. A sample project. This is a sample project.<br/> This is really just a sample project. A sample project. This is a sample project. This is really just a sample project. A sample project.<br/> This is a sample project. This is really just a sample project. A sample project.
+                    </p>
+                    <h2 class="photo">Photo Gallery</h2>
+                    <canvas id="photo-gallery" width="670" height="335" style="background-color:#efefef"></canvas>
+                    <p>
+                     This is a sample project. This is really just a sample project. A sample project. This is a sample project. This is really just a sample<br/> project. A sample project. This is a sample project. This is really just a sample project. A sample project. This is a sample project.<br/> This is really just a sample project. A sample project. This is a sample project. This is really just a sample project. A sample project.<br/> This is a sample project. This is really just a sample project. A sample project.
+                    </p>
+                    <div class="imgFlower">
+                        <img class="flower" src="Images/5018.png" alt="flower">
+                        <h2>Dont't just hear what  we say</h2>
+                    </div>
+                    <div class="leftColumn">
+                        <h2>Testimonials</h2>
+                        <div class="line"></div>
+                        <h3>
+                        Great hotel and<br/>
+                        convienent location<br/>
+                        Absolutely five stars!
+                        </h3>
+                        <p>
+                        This is a sample text. This is really just a sample<br/> text. A sample text. This is a sample text. This is<br/> really just a sample text. A sample text. This is a<br/> sample text. This is really just a sample text. A<br/> sample text. This is a sample text. This is really just<br/> a sample text. A sample text. This is a sample text.<br/> This is really just a sample text. A sample text. This<br/> is a sample text. This is really just a sample text. A<br/> sample text.
+                        </p>
+                    </div>
+                    <div class="rightColumn">
+                        <img src="./Images/4912.png" alt="bulding">
+                        <img src="./Images/5029.png" alt="programmer">
+                    </div>
+                </div>
+                <div class="ad">
+                    <h3>Thing to do</h3>
+                    <div class="adImg">
+                        <img src="./Images/ads.png" alt="ads">
+                        <img src="./Images/ads.png" alt="ads">
+                        <img src="./Images/ads.png" alt="ads">
+                        <img src="./Images/ads.png" alt="ads">
+                    </div>
+                    <p>Become sponser.</p>
+                </div>
             </div>
         </div>
         <div class="footer">
-
+            <div class="contact">
+                <h4>Contact</h4>
+                <h5>hello@example.com</h5>
+                <p>
+                2088 Meadow Lane<br/>
+                Cranford, NJ 0701
+                </p>
+                <h5 class="copyright">&copy; 2015. WorldSkills.</h5>
+            </div>
+            <div class="foot">
+                <h4>Footer</h4>
+                <h5>Footer Col Footer Col Footer Col Footer Col Footer Col<br /> Footer Col</h5>
+            </div>
+            <div class="subscribe">
+                <h4>Subscribe</h4>
+                <h5>Subscribe our newsletter for news.</h5>
+            </div>
+            <div class="hotelGroup">
+                <h4>Hotel Group</h4>
+                <h5>We have hotels  all over the word.</h5>
+                <div>
+                <img src="./Images/icon.gif" alt="icon">
+                <img src="./Images/icon.gif" alt="icon">              
+                <img src="./Images/icon.gif" alt="icon">
+                </div>
+                <div >
+                <img src="./Images/icon.gif" alt="icon">
+                <img src="./Images/icon.gif" alt="icon">
+                <img src="./Images/icon.gif" alt="icon">
+                </div>
+            </div>
         </div>
     </body>
 </html>

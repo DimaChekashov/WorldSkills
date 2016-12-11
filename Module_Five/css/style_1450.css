@@ -1,0 +1,460 @@
+@media only screen 	and (min-width: 1450px){
+	h1 a{
+		color: #000;
+	}
+	a{
+		text-decoration: none;
+		color:#777;
+	}
+
+	.back-ground{
+	    padding: 73px;
+	    height: 1768px;
+	    background-color: #fae499;
+
+	}
+
+	.room{
+		display: inline-block;
+		position: absolute;
+	}
+
+	.roomMenu{
+		position: absolute;
+		margin-left: 1064px;
+		background: #ccc;
+		height: 27px;
+		width: 300px;
+		cursor: pointer;
+	}
+
+	.roomMenu p{
+		padding-top: 6px;
+		padding-left: 5px;
+		font-family: Vollkorn-Bold, Arial;
+		cursor: pointer;
+	}
+
+	.dropdown-content {
+		margin-top: 27px;
+		margin-left: 1064px;
+	    display: none;
+	    position: absolute;
+	    width: 300px;
+	    height: 140px;
+	    background-color: #ccc;
+	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	}
+	.imgCheck{
+		float: left;
+	}
+
+	.lastImg{
+		float: left;
+	}
+
+	.btn{
+		margin-left: 5px;
+		margin-top: 5px;
+	}
+
+	.text{
+		padding-left: 5px;
+	}
+
+	.dropdown-content img{
+		padding-left: 4px;
+		cursor: pointer;
+		width: 50px;
+		height: 25px;
+	}
+	.dropdown-content h2{
+		padding-top: 3px;
+	}
+	.room:hover .dropdown-content {
+    	display: block;
+	}
+
+	.container{
+	    background: #ffffff;
+	    height: 1767px;
+	    width: 1308;
+	    -webkit-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.48);
+	       -moz-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.48);
+	            box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.48);
+	}
+
+	.footer{
+	    height: 365px;
+	    background-color: #fbfbfb;
+	}
+
+	.firstMenu{
+		width: 113px;
+		height: 100%;
+		background: rgb(255, 215, 3);/*For old site*/ 
+	    background: -webkit-linear-gradient(bottom, rgb(255, 215, 3), rgb(255, 215, 3));
+	    background: -o-linear-gradient(bottom, rgb(255, 215, 3), rgb(255, 215, 3));
+	    background: linear-gradient(to top, rgb(255, 215, 3), rgb(255, 215, 3));
+	    float: left;
+	}
+
+	@font-face{
+		font-family: DancingScript-Bold;
+		src: url(../Fonts/Dancing_Script/DancingScript-Bold.ttf);
+		font-weight: bold;
+	}
+
+	h1{
+		padding-top: 23px;
+		padding-left: 10px; 
+		font-family: DancingScript-Bold, Arial;
+		font-size: 1.7em;
+	}
+
+	.firstMenu ul{
+		padding-top: 10px;
+		color: #777;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.firstMenu li{
+		padding-left: 10px;
+		padding-top: 20px;
+	}
+	.secondMenu{
+		width: 190px;
+		height: 100%;
+		float: left;
+	}
+
+	img.map{
+		width: 177px;
+		height: 111px;
+		margin-left: 10px;
+		padding-top: 16px;
+	}
+
+	.secondMenu h2{
+		padding-top: 23px;
+		padding-left: 10px;
+		font-family: DancingScript-Bold, Arial;
+		font-size: 1.3em;
+	}
+	
+	.secondMenu ul{
+		color: #777;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.secondMenu li{
+		padding-left: 24px;
+		padding-top: 23.5px;
+	}
+
+	.check{
+		margin-top: 18px;
+		margin-left: 10px;
+		width: 176px;
+		height: 106px;
+		border: 1px solid #777;
+	}
+
+	.check h3{
+		padding-top: 17px;
+		padding-left: 3.5px;
+		font-family: DancingScript-Bold, Arial;
+		font-size: 1em;	
+	}
+
+	.check ul{
+		padding-top: 4px;
+		color: #000000;
+
+		font-weight: bold;
+	}
+	.check li{
+		padding-left: 3.5px;
+		padding-top: 17px;
+	}
+
+	.secondMenu h3:nth-child(2n){
+		padding-top: 21.5px;
+		padding-left: 10px;
+		font-family: DancingScript-Bold, Arial;
+		font-size: 1em;
+	}
+
+	.main h2:nth-child(1){
+		padding-left: 9px;
+		padding-top: 23px;
+		font-family: DancingScript-Bold, Arial;
+		font-size: 1.3em;
+	}
+
+	.main p:nth-child(1n){
+		padding-left: 9px;
+		padding-top: 22px;
+		padding-bottom: 11.5px;
+	}
+	
+	.event{
+		margin-left: 9px;
+		width: 217px;
+		height: 300px;
+	-webkit-filter: grayscale(90%); /* Safari 6.0 - 9.0 */
+    		filter: grayscale(90%);
+	}
+	.event:hover{
+	-webkit-filter: brightness(120%); /* Safari 6.0 - 9.0 */
+    		filter: brightness(120%);
+	}
+
+
+	.imgGath{
+		position: relative;
+		width: 217px;
+		height: 300px; 
+		display: inline-block;
+	}
+
+	.imgGath img{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 217px;
+	}
+
+	@font-face{
+		font-family: Vollkorn-Bold;
+		src: url(../Fonts/Vollkorn/Vollkorn-Bold.ttf);
+		font-weight: bold;
+	}
+
+	.imgGath h2:nth-child(2){
+		color: #ffffff;
+		font-size: 30px;
+		position: absolute;
+		top: 245px;
+		left: 14px;
+		width: 217px;
+		font-weight: bold;
+		font-family: Vollkorn-Bold, Arial;
+	}
+
+	@font-face{
+		font-family: Vollkorn-Bold;
+		src: url(../Fonts/Vollkorn/Vollkorn-Regular.ttf);
+	}
+
+	.main p{
+		font-family: Vollkorn-Bold, Arial;
+		font-size: 0.75em;
+	}
+	.main p:nth-child(2n){
+		padding-top: 12px;
+	}
+	.main p:nth-child(3n){
+		padding-top: 15px;
+	}
+
+	.main h2.photo{
+		padding-left: 10px;
+		padding-top: 38px;
+		padding-bottom: 20px;
+		font-family: DancingScript-Bold, Arial;
+		font-size: 1.3em;
+		font-weight: bold;
+	}
+
+	.flower{
+		margin-left: 9px;
+		width: 674px;
+		height: 200px;
+	}
+	
+	.imgFlower{
+		position: relative;
+		width: 674px;
+		height: 200px;
+	}
+	.imgFlower img{
+		margin-left: 0px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 674px;
+	}
+	.imgFlower h2{
+		color: #ffffff;
+		font-size: 12px;
+		position: absolute;
+		top: 165px;
+		left: 15px;
+		width: 674px;
+		font-weight: bold;
+		font-family: Vollkorn-Bold, Arial;
+	}
+
+	.leftColumn{
+		width: 283px;
+		margin-top:36px; 
+		float: left;
+	}
+
+	.leftColumn h2:first-child{
+		padding-left: 0;
+		font-family: DancingScript-Bold, Arial;
+		font-size: 1.3em;
+		font-weight: bold;
+		padding-bottom: 20px;
+	}
+
+	.line{
+		float: left;
+		width: 3px;
+		height: 166px;
+		background: #ffd703; 
+	}
+
+	.leftColumn h3{
+		padding-top: 36px;
+		padding-left: 15px;
+		font-family: Vollkorn-Bold, Arial;
+		font-size: 1.6em;
+	}
+
+	.leftColumn p{
+		font-size: 12.5px;
+		margin-top: 62px;
+		margin-left: -10px;
+
+	}
+
+	.rightColumn{
+		padding-top: 12px;
+		float: right;
+		width: 400px;
+	}
+	.rightColumn img{
+		padding-right: 10px;
+		width: 385px;
+		height: 256px;	
+	}
+
+
+	.ad h3{
+		padding-left: 10px;
+		padding-top: 22px;
+		font-family: DancingScript-Bold, Arial;
+		font-size: 1.2em;
+	}
+
+	.adImg img{
+		width: 136px;
+		height: 95px;
+	}
+
+	.adImg{
+		margin-top: 18px;
+		margin-left: 9.5px;
+	}
+
+	.ad p{
+		color: #777;
+		font-size: 12px;
+		font-weight: bold;
+		padding-top: 23.5px;
+		padding-left: 10px;
+	}
+
+
+	.main{
+		width: 687px;
+		height: 100%;
+		float: left;
+	}
+	.ad{
+		width: 297px;
+		height: 100%;
+		background: #efefef;
+		float: right;
+	}
+	.contact{
+		margin-left: 81px;
+		width: 219px;
+		height: 100%;
+		float: left;
+	}
+	.foot{
+		margin-left: 108px;
+		width: 352px;
+		height: 100%;
+		float: left;
+	}
+	.subscribe{
+		width: 270px;
+		height: 100%;
+		float: left;
+	}
+	.hotelGroup{
+		width: 403px;
+		height: 100%;
+		float: right;
+	}
+	
+	.footer h4{
+		padding-top: 43px;
+		padding-bottom: 22px;
+		font-family: DancingScript-Bold, Arial;
+		font-size: 1em;
+	}
+	.contact h5{
+		font-size: 14px;
+		font-family: Vollkorn-Bold, Arial;
+	}
+
+	.contact p{
+		font-size: 14px;
+		padding-top: 15px;
+		font-family: Vollkorn-Bold, Arial;
+	}
+	.copyright{
+		padding-top: 173px;
+		font-family: Vollkorn-Bold, Arial;
+	}
+
+	.foot h5{
+		font-size: 14px;
+		font-family: Vollkorn-Bold, Arial;
+	}
+
+	.subscribe{
+		font-size: 14px;
+		font-family: Vollkorn-Bold, Arial;
+	}
+
+	.hotelGroup h4{
+		padding-right: 331px;
+	}
+	.hotelGroup h5{
+		font-size: 13px;
+		padding-bottom: 15px;
+		font-family: Vollkorn-Bold, Arial;
+		padding-right: 214px;
+	}
+
+	.hotelGroup img{
+		height: 95px;
+		width: 95px;
+	}
+	.hotelGroup div:nth-child(2n){
+		margin-top: -2.5px;
+		padding-right: 84px;
+	}
+	.hotelGroup img:nth-child(2n){
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+}
