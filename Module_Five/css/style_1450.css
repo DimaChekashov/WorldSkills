@@ -379,6 +379,7 @@
 		height: 100%;
 		background: #efefef;
 		float: right;
+		display: block;
 	}
 	.contact{
 		margin-left: 81px;
