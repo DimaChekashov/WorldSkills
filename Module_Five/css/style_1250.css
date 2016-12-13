@@ -1,4 +1,4 @@
-@media only screen 	and (min-width: 1450px){
+@media only screen and (min-width: 1250px){
 	h1 a{
 		color: #000;
 	}
@@ -8,10 +8,9 @@
 	}
 
 	.back-ground{
-	    padding: 73px;
-	    height: 1768px;
-	    background-color: #fae499;
-
+		height: 1756px;
+		padding: 63px;
+		background: #fae499;
 	}
 
 	.room{
@@ -21,7 +20,7 @@
 
 	.roomMenu{
 		position: absolute;
-		margin-left: 1064px;
+		margin-left: 872px;
 		background: #ccc;
 		height: 27px;
 		width: 300px;
@@ -37,7 +36,7 @@
 
 	.dropdown-content {
 		margin-top: 27px;
-		margin-left: 1064px;
+		margin-left: 872px;
 	    display: none;
 	    position: absolute;
 	    width: 300px;
@@ -75,28 +74,15 @@
     	display: block;
 	}
 
-	.container{
-	    background: #ffffff;
-	    height: 1767px;
-	    width: auto;
-	    -webkit-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.48);
-	       -moz-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.48);
-	            box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.48);
-	}
-
-	.footer{
-	    height: 365px;
-	    background-color: #fbfbfb;
-	}
 
 	.firstMenu{
 		width: 113px;
 		height: 100%;
+		float: left;
 		background: rgb(255, 215, 3);/*For old site*/ 
 	    background: -webkit-linear-gradient(bottom, rgb(255, 215, 3), rgb(255, 215, 3));
 	    background: -o-linear-gradient(bottom, rgb(255, 215, 3), rgb(255, 215, 3));
 	    background: linear-gradient(to top, rgb(255, 215, 3), rgb(255, 215, 3));
-	    float: left;
 	}
 
 	@font-face{
@@ -122,15 +108,16 @@
 		padding-left: 10px;
 		padding-top: 20px;
 	}
+
 	.secondMenu{
-		width: 190px;
+		width: 160px;
 		height: 100%;
 		float: left;
 	}
 
 	img.map{
-		width: 177px;
-		height: 111px;
+		width: 148px;
+		height: 92px;
 		margin-left: 10px;
 		padding-top: 16px;
 	}
@@ -155,7 +142,7 @@
 	.check{
 		margin-top: 18px;
 		margin-left: 10px;
-		width: 176px;
+		width: 146px;
 		height: 106px;
 		border: 1px solid #777;
 	}
@@ -183,6 +170,12 @@
 		padding-left: 10px;
 		font-family: DancingScript-Bold, Arial;
 		font-size: 1em;
+	}
+
+	.main{
+		width: 684px;
+		height: 100%;
+		float: left;
 	}
 
 	.main h2:nth-child(1){
@@ -342,6 +335,12 @@
 		height: 256px;	
 	}
 
+	.ad{
+		width: 150px;
+		height: 100%;
+		background: #efefef;
+		float: right;
+	}
 
 	.ad h3{
 		padding-left: 10px;
@@ -351,13 +350,13 @@
 	}
 
 	.adImg img{
-		width: 136px;
-		height: 95px;
+		width: 130px;
+		height: 92px;
 	}
 
 	.adImg{
 		margin-top: 18px;
-		margin-left: 9.5px;
+		margin-left: 10px;
 	}
 
 	.ad p{
@@ -368,37 +367,39 @@
 		padding-left: 10px;
 	}
 
+	.container{
+		width: auto;
+		height:1766px;
+		background: #ffffff;
+		-webkit-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.48);
+	       -moz-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.48);
+	            box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.48);
+	}
 
-	.main{
-		width: 687px;
-		height: 100%;
-		float: left;
-	}
-	.ad{
-		width: 297px;
-		height: 100%;
+	.footer{
+		height: 335px;
 		background: #efefef;
-		float: right;
-	}
+	}	
+
 	.contact{
 		margin-left: 81px;
-		width: 219px;
+		width: 150px;
 		height: 100%;
 		float: left;
 	}
 	.foot{
-		margin-left: 108px;
-		width: 352px;
+		margin-left: 100px;
+		width: 302px;
 		height: 100%;
 		float: left;
 	}
 	.subscribe{
-		width: 270px;
+		width: 190px;
 		height: 100%;
 		float: left;
 	}
 	.hotelGroup{
-		width: 403px;
+		width: 350px;
 		height: 100%;
 		float: right;
 	}
@@ -410,51 +411,53 @@
 		font-size: 1em;
 	}
 	.contact h5{
-		font-size: 14px;
+		font-size: 12px;
 		font-family: Vollkorn-Bold, Arial;
 	}
 
 	.contact p{
-		font-size: 14px;
+		font-size: 12px;
 		padding-top: 15px;
 		font-family: Vollkorn-Bold, Arial;
 	}
 	.copyright{
-		padding-top: 173px;
+		padding-top: 143px;
 		font-family: Vollkorn-Bold, Arial;
 	}
 
 	.foot h5{
-		font-size: 14px;
+		font-size: 12px;
 		font-family: Vollkorn-Bold, Arial;
 	}
 
 	.subscribe{
-		font-size: 14px;
+		font-size: 12px;
 		font-family: Vollkorn-Bold, Arial;
 	}
 
 	.hotelGroup h4{
-		padding-right: 331px;
+		padding-right: 278px;
 	}
 	.hotelGroup h5{
 		font-size: 13px;
 		padding-bottom: 15px;
 		font-family: Vollkorn-Bold, Arial;
-		padding-right: 214px;
+		padding-right: 160px;
 	}
 
 	.hotelGroup img{
-		height: 95px;
-		width: 95px;
+		height: 81px;
+		width: 81px;
 	}
 	.hotelGroup div:nth-child(2n){
 		margin-top: -2.5px;
-		padding-right: 84px;
+		padding-right: 0px;
 	}
 	.hotelGroup img:nth-child(2n){
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+
+
 
 }
