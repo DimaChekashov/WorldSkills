@@ -102,6 +102,7 @@
 		display: inline;
 		padding-top: 27px;
 		margin-left: 79px;
+		margin-top: 0;
 		color: #777;
 		font-size: 12px;
 		font-weight: bold;
@@ -110,6 +111,7 @@
 		display: inline;
 		padding-left: 10px;
 		padding-top: 20px;
+		padding-right: 0;
 	}
 
 	.secondMenu{
@@ -270,7 +272,6 @@
 	}
 
 	.flower{
-		margin-left: 9px;
 		width: 390px;
 		height: 200px;
 	}
@@ -339,7 +340,6 @@
 		width: 140px;
 	}
 	.rightColumn img{
-		padding-right: 10px;
 		width: 127px;
 		height: 83px;	
 	}
@@ -352,6 +352,9 @@
 		height: 1691px;
 		width: auto;
 		background: #ffffff;
+		-webkit-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.48);
+	       -moz-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.48);
+	            box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.48);
 	}
 
 	.footer{

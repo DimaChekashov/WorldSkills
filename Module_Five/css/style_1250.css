@@ -386,13 +386,14 @@
 	}	
 
 	.contact{
-		margin-left: 81px;
+		margin-left: 71px;
 		width: 150px;
 		height: 100%;
+		padding-right: 10px;
 		float: left;
 	}
 	.foot{
-		margin-left: 100px;
+		margin-left: 60px;
 		width: 302px;
 		height: 100%;
 		float: left;

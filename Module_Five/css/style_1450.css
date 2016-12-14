@@ -385,13 +385,14 @@
 		display: block;
 	}
 	.contact{
-		margin-left: 81px;
+		margin-left: 71px;
 		width: 219px;
 		height: 100%;
+		padding-right: 10px;
 		float: left;
 	}
 	.foot{
-		margin-left: 108px;
+		margin-left: 30px;
 		width: 352px;
 		height: 100%;
 		float: left;
