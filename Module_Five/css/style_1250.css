@@ -99,12 +99,15 @@
 	}
 
 	.firstMenu ul{
+		display: block;
+		margin-left: 0;
 		padding-top: 10px;
 		color: #777;
 		font-size: 12px;
 		font-weight: bold;
 	}
 	.firstMenu li{
+		display: block;
 		padding-left: 10px;
 		padding-top: 20px;
 	}
